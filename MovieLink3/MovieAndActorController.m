@@ -1,18 +1,18 @@
 //
-//  MovieController.m
+//  MovieAndActorController.m
 //  MovieLink3
 //
 //  Created by Douglas Goodwin on 9/26/15.
 //  Copyright © 2015 Dr.G. All rights reserved.
 //
 
-#import "MovieController.h"
+#import "MovieAndActorController.h"
 #import "NetworkController.h"
 #import "Actor.h"
 #import "MoviesWithActor.h"
 #import "CastFromMovie.h"
 
-@interface MovieController ()
+@interface MovieAndActorController ()
 
 @property (nonatomic, strong) NSArray *actorSearchResults;
 @property (nonatomic, strong) NSArray *moviesWithActorArray;
@@ -21,7 +21,17 @@
 
 @end
 
-@implementation MovieController
+@implementation MovieAndActorController
+
++ (MovieAndActorController *)sharedInstance {
+    static MovieAndActorController *sharedInstance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedInstance = [MovieAndActorController new];
+    });
+    
+    return sharedInstance;
+}
 
 
 //  This will get Actors from Search
@@ -115,9 +125,5 @@
     }];
     [dataTask resume];
 }
-
-
-
-
 
 @end

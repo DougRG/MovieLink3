@@ -22,7 +22,9 @@
 		8CB52BB71BB75CCE00AE2451 /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BB61BB75CCE00AE2451 /* Actor.m */; settings = {ASSET_TAGS = (); }; };
 		8CB52BBA1BB75CDD00AE2451 /* MoviesWithActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BB91BB75CDD00AE2451 /* MoviesWithActor.m */; settings = {ASSET_TAGS = (); }; };
 		8CB52BBF1BB7656100AE2451 /* CastFromMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BBE1BB7656100AE2451 /* CastFromMovie.m */; settings = {ASSET_TAGS = (); }; };
-		8CB52BC21BB77FFC00AE2451 /* MovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BC11BB77FFC00AE2451 /* MovieController.m */; settings = {ASSET_TAGS = (); }; };
+		8CB52BC21BB77FFC00AE2451 /* MovieAndActorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BC11BB77FFC00AE2451 /* MovieAndActorController.m */; settings = {ASSET_TAGS = (); }; };
+		8CF38B631BB79A5300944145 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BAA1BB755AF00AE2451 /* NetworkController.m */; };
+		8CF38B651BB79D9800944145 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF38B641BB79D9800944145 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +75,9 @@
 		8CB52BB91BB75CDD00AE2451 /* MoviesWithActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesWithActor.m; sourceTree = "<group>"; };
 		8CB52BBD1BB7656100AE2451 /* CastFromMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastFromMovie.h; sourceTree = "<group>"; };
 		8CB52BBE1BB7656100AE2451 /* CastFromMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastFromMovie.m; sourceTree = "<group>"; };
-		8CB52BC01BB77FFC00AE2451 /* MovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieController.h; sourceTree = "<group>"; };
-		8CB52BC11BB77FFC00AE2451 /* MovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieController.m; sourceTree = "<group>"; };
+		8CB52BC01BB77FFC00AE2451 /* MovieAndActorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieAndActorController.h; sourceTree = "<group>"; };
+		8CB52BC11BB77FFC00AE2451 /* MovieAndActorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieAndActorController.m; sourceTree = "<group>"; };
+		8CF38B641BB79D9800944145 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 		8CB52B6A1BB7434800AE2451 = {
 			isa = PBXGroup;
 			children = (
+				8CF38B641BB79D9800944145 /* Default-568h@2x.png */,
 				8CB52B751BB7434800AE2451 /* MovieLink3 */,
 				8CB52B8F1BB7434800AE2451 /* MovieLink3Tests */,
 				8CB52B9A1BB7434800AE2451 /* MovieLink3UITests */,
@@ -128,6 +132,7 @@
 				8CB52B791BB7434800AE2451 /* AppDelegate.h */,
 				8CB52B7A1BB7434800AE2451 /* AppDelegate.m */,
 				8CB52BBB1BB75CE900AE2451 /* Model */,
+				8CF38B621BB7933900944145 /* View */,
 				8CB52BBC1BB75CFB00AE2451 /* Controller */,
 				8CB52B7F1BB7434800AE2451 /* Main.storyboard */,
 				8CB52B821BB7434800AE2451 /* Assets.xcassets */,
@@ -180,12 +185,19 @@
 		8CB52BBC1BB75CFB00AE2451 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8CB52B7C1BB7434800AE2451 /* Game1ViewController.h */,
-				8CB52B7D1BB7434800AE2451 /* Game1ViewController.m */,
-				8CB52BC01BB77FFC00AE2451 /* MovieController.h */,
-				8CB52BC11BB77FFC00AE2451 /* MovieController.m */,
+				8CB52BC01BB77FFC00AE2451 /* MovieAndActorController.h */,
+				8CB52BC11BB77FFC00AE2451 /* MovieAndActorController.m */,
 				8CB52BA91BB755AF00AE2451 /* NetworkController.h */,
 				8CB52BAA1BB755AF00AE2451 /* NetworkController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8CF38B621BB7933900944145 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CB52B7C1BB7434800AE2451 /* Game1ViewController.h */,
+				8CB52B7D1BB7434800AE2451 /* Game1ViewController.m */,
 				8CB52BAF1BB75BBE00AE2451 /* PickActorsViewController.h */,
 				8CB52BB01BB75BBE00AE2451 /* PickActorsViewController.m */,
 				8CB52BB21BB75BD400AE2451 /* StartPageViewController.h */,
@@ -193,7 +205,7 @@
 				8CB52BAC1BB75B8400AE2451 /* ActorSearchViewController.h */,
 				8CB52BAD1BB75B8400AE2451 /* ActorSearchViewController.m */,
 			);
-			name = Controller;
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB52B861BB7434800AE2451 /* LaunchScreen.storyboard in Resources */,
+				8CF38B651BB79D9800944145 /* Default-568h@2x.png in Resources */,
 				8CB52B831BB7434800AE2451 /* Assets.xcassets in Resources */,
 				8CB52B811BB7434800AE2451 /* Main.storyboard in Resources */,
 			);
@@ -326,7 +339,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB52BC21BB77FFC00AE2451 /* MovieController.m in Sources */,
+				8CF38B631BB79A5300944145 /* NetworkController.m in Sources */,
+				8CB52BC21BB77FFC00AE2451 /* MovieAndActorController.m in Sources */,
 				8CB52BAE1BB75B8400AE2451 /* ActorSearchViewController.m in Sources */,
 				8CB52B7E1BB7434800AE2451 /* Game1ViewController.m in Sources */,
 				8CB52BBA1BB75CDD00AE2451 /* MoviesWithActor.m in Sources */,
