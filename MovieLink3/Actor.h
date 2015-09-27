@@ -10,7 +10,7 @@
 
 @interface Actor : NSObject
 
-@property (nonatomic, strong) NSString *actorName;
+@property (nonatomic, strong, readwrite) NSString *actorName;
 @property (nonatomic, strong) NSNumber *IDNumber;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;

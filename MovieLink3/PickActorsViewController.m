@@ -13,6 +13,7 @@
 
 @end
 
+
 @implementation PickActorsViewController
 
 - (void)viewDidLoad {
@@ -25,6 +26,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)prepareForUnwindSegue:(UIStoryboardSegue *)segue {
+    if (self.actor1Button.titleLabel == @"Select 1st Actor") {
+        
+    }
+
+    
+}
+
 
 /*
 #pragma mark - Navigation

@@ -14,7 +14,7 @@
 
 @interface MovieAndActorController ()
 
-@property (nonatomic, strong) NSArray *actorSearchResults;
+//@property (nonatomic, strong) NSArray *actorSearchResults;
 @property (nonatomic, strong) NSArray *moviesWithActorArray;
 @property (nonatomic, strong) NSArray *actorsFromMovieArray;
 

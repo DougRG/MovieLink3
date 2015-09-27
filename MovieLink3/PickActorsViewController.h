@@ -10,4 +10,7 @@
 
 @interface PickActorsViewController : UIViewController
 
+@property (weak, nonatomic, readwrite) IBOutlet UIButton *actor1Button;
+@property (weak, nonatomic, readwrite) IBOutlet UIButton *actor2Button;
+
 @end

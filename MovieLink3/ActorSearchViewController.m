@@ -9,6 +9,7 @@
 #import "ActorSearchViewController.h"
 #import "MovieAndActorController.h"
 #import "Actor.h"
+#import "PickActorsViewController.h"
 
 @interface ActorSearchViewController () <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
 
@@ -36,9 +37,6 @@
     }];
 }
 
-
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
@@ -61,14 +59,22 @@
 }
 
 
-/*
+
  #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+
+// - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//     if ([segue.identifier isEqualToString:@"actor1Segue"]) {
+//         PickActorsViewController *pickActorVC = segue.destinationViewController;
+//         NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
+//         Actor *actor = [[MovieAndActorController sharedInstance].actorSearchResults objectAtIndex:indexPath.row];
+//         
+//         if ([pickActorVC.actor1Button.titleLabel  isEqual: @"Select 1st Actor"]) {
+//             pickActorVC.actor1Button.titleLabel = actor.actorName;
+//         }
+//     }
+//     
+
+// }
+
 
 @end
