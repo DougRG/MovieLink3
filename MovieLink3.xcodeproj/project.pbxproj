@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB52B781BB7434800AE2451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52B771BB7434800AE2451 /* main.m */; };
+		8CB52B7B1BB7434800AE2451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52B7A1BB7434800AE2451 /* AppDelegate.m */; };
+		8CB52B7E1BB7434800AE2451 /* Game1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52B7D1BB7434800AE2451 /* Game1ViewController.m */; };
+		8CB52B811BB7434800AE2451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB52B7F1BB7434800AE2451 /* Main.storyboard */; };
+		8CB52B831BB7434800AE2451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB52B821BB7434800AE2451 /* Assets.xcassets */; };
+		8CB52B861BB7434800AE2451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB52B841BB7434800AE2451 /* LaunchScreen.storyboard */; };
+		8CB52B911BB7434800AE2451 /* MovieLink3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52B901BB7434800AE2451 /* MovieLink3Tests.m */; };
+		8CB52B9C1BB7434800AE2451 /* MovieLink3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52B9B1BB7434800AE2451 /* MovieLink3UITests.m */; };
+		8CB52BAB1BB755AF00AE2451 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BAA1BB755AF00AE2451 /* NetworkController.m */; settings = {ASSET_TAGS = (); }; };
+		8CB52BAE1BB75B8400AE2451 /* ActorSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BAD1BB75B8400AE2451 /* ActorSearchViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8CB52BB11BB75BBE00AE2451 /* PickActorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BB01BB75BBE00AE2451 /* PickActorsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8CB52BB41BB75BD400AE2451 /* StartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BB31BB75BD400AE2451 /* StartPageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8CB52BB71BB75CCE00AE2451 /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BB61BB75CCE00AE2451 /* Actor.m */; settings = {ASSET_TAGS = (); }; };
+		8CB52BBA1BB75CDD00AE2451 /* MoviesWithActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BB91BB75CDD00AE2451 /* MoviesWithActor.m */; settings = {ASSET_TAGS = (); }; };
+		8CB52BBF1BB7656100AE2451 /* CastFromMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BBE1BB7656100AE2451 /* CastFromMovie.m */; settings = {ASSET_TAGS = (); }; };
+		8CB52BC21BB77FFC00AE2451 /* MovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BC11BB77FFC00AE2451 /* MovieController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB52B8D1BB7434800AE2451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB52B6B1BB7434800AE2451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB52B721BB7434800AE2451;
+			remoteInfo = MovieLink3;
+		};
+		8CB52B981BB7434800AE2451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB52B6B1BB7434800AE2451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB52B721BB7434800AE2451;
+			remoteInfo = MovieLink3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CB52B731BB7434800AE2451 /* MovieLink3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieLink3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB52B771BB7434800AE2451 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CB52B791BB7434800AE2451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CB52B7A1BB7434800AE2451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CB52B7C1BB7434800AE2451 /* Game1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game1ViewController.h; sourceTree = "<group>"; };
+		8CB52B7D1BB7434800AE2451 /* Game1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game1ViewController.m; sourceTree = "<group>"; };
+		8CB52B801BB7434800AE2451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CB52B821BB7434800AE2451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB52B851BB7434800AE2451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CB52B871BB7434800AE2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB52B8C1BB7434800AE2451 /* MovieLink3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieLink3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB52B901BB7434800AE2451 /* MovieLink3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieLink3Tests.m; sourceTree = "<group>"; };
+		8CB52B921BB7434800AE2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB52B971BB7434800AE2451 /* MovieLink3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieLink3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB52B9B1BB7434800AE2451 /* MovieLink3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieLink3UITests.m; sourceTree = "<group>"; };
+		8CB52B9D1BB7434800AE2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB52BA91BB755AF00AE2451 /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkController.h; path = MovieLink3/NetworkController.h; sourceTree = SOURCE_ROOT; };
+		8CB52BAA1BB755AF00AE2451 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkController.m; path = MovieLink3/NetworkController.m; sourceTree = SOURCE_ROOT; };
+		8CB52BAC1BB75B8400AE2451 /* ActorSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorSearchViewController.h; sourceTree = "<group>"; };
+		8CB52BAD1BB75B8400AE2451 /* ActorSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorSearchViewController.m; sourceTree = "<group>"; };
+		8CB52BAF1BB75BBE00AE2451 /* PickActorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickActorsViewController.h; sourceTree = "<group>"; };
+		8CB52BB01BB75BBE00AE2451 /* PickActorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickActorsViewController.m; sourceTree = "<group>"; };
+		8CB52BB21BB75BD400AE2451 /* StartPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartPageViewController.h; sourceTree = "<group>"; };
+		8CB52BB31BB75BD400AE2451 /* StartPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPageViewController.m; sourceTree = "<group>"; };
+		8CB52BB51BB75CCE00AE2451 /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		8CB52BB61BB75CCE00AE2451 /* Actor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor.m; sourceTree = "<group>"; };
+		8CB52BB81BB75CDD00AE2451 /* MoviesWithActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesWithActor.h; sourceTree = "<group>"; };
+		8CB52BB91BB75CDD00AE2451 /* MoviesWithActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesWithActor.m; sourceTree = "<group>"; };
+		8CB52BBD1BB7656100AE2451 /* CastFromMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastFromMovie.h; sourceTree = "<group>"; };
+		8CB52BBE1BB7656100AE2451 /* CastFromMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastFromMovie.m; sourceTree = "<group>"; };
+		8CB52BC01BB77FFC00AE2451 /* MovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieController.h; sourceTree = "<group>"; };
+		8CB52BC11BB77FFC00AE2451 /* MovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB52B701BB7434800AE2451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB52B891BB7434800AE2451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB52B941BB7434800AE2451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB52B6A1BB7434800AE2451 = {
+			isa = PBXGroup;
+			children = (
+				8CB52B751BB7434800AE2451 /* MovieLink3 */,
+				8CB52B8F1BB7434800AE2451 /* MovieLink3Tests */,
+				8CB52B9A1BB7434800AE2451 /* MovieLink3UITests */,
+				8CB52B741BB7434800AE2451 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB52B741BB7434800AE2451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB52B731BB7434800AE2451 /* MovieLink3.app */,
+				8CB52B8C1BB7434800AE2451 /* MovieLink3Tests.xctest */,
+				8CB52B971BB7434800AE2451 /* MovieLink3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB52B751BB7434800AE2451 /* MovieLink3 */ = {
+			isa = PBXGroup;
+			children = (
+				8CB52B791BB7434800AE2451 /* AppDelegate.h */,
+				8CB52B7A1BB7434800AE2451 /* AppDelegate.m */,
+				8CB52BBB1BB75CE900AE2451 /* Model */,
+				8CB52BBC1BB75CFB00AE2451 /* Controller */,
+				8CB52B7F1BB7434800AE2451 /* Main.storyboard */,
+				8CB52B821BB7434800AE2451 /* Assets.xcassets */,
+				8CB52B841BB7434800AE2451 /* LaunchScreen.storyboard */,
+				8CB52B871BB7434800AE2451 /* Info.plist */,
+				8CB52B761BB7434800AE2451 /* Supporting Files */,
+			);
+			path = MovieLink3;
+			sourceTree = "<group>";
+		};
+		8CB52B761BB7434800AE2451 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB52B771BB7434800AE2451 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CB52B8F1BB7434800AE2451 /* MovieLink3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB52B901BB7434800AE2451 /* MovieLink3Tests.m */,
+				8CB52B921BB7434800AE2451 /* Info.plist */,
+			);
+			path = MovieLink3Tests;
+			sourceTree = "<group>";
+		};
+		8CB52B9A1BB7434800AE2451 /* MovieLink3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB52B9B1BB7434800AE2451 /* MovieLink3UITests.m */,
+				8CB52B9D1BB7434800AE2451 /* Info.plist */,
+			);
+			path = MovieLink3UITests;
+			sourceTree = "<group>";
+		};
+		8CB52BBB1BB75CE900AE2451 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CB52BB51BB75CCE00AE2451 /* Actor.h */,
+				8CB52BB61BB75CCE00AE2451 /* Actor.m */,
+				8CB52BB81BB75CDD00AE2451 /* MoviesWithActor.h */,
+				8CB52BB91BB75CDD00AE2451 /* MoviesWithActor.m */,
+				8CB52BBD1BB7656100AE2451 /* CastFromMovie.h */,
+				8CB52BBE1BB7656100AE2451 /* CastFromMovie.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8CB52BBC1BB75CFB00AE2451 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8CB52B7C1BB7434800AE2451 /* Game1ViewController.h */,
+				8CB52B7D1BB7434800AE2451 /* Game1ViewController.m */,
+				8CB52BA91BB755AF00AE2451 /* NetworkController.h */,
+				8CB52BC01BB77FFC00AE2451 /* MovieController.h */,
+				8CB52BC11BB77FFC00AE2451 /* MovieController.m */,
+				8CB52BAA1BB755AF00AE2451 /* NetworkController.m */,
+				8CB52BAF1BB75BBE00AE2451 /* PickActorsViewController.h */,
+				8CB52BB01BB75BBE00AE2451 /* PickActorsViewController.m */,
+				8CB52BB21BB75BD400AE2451 /* StartPageViewController.h */,
+				8CB52BB31BB75BD400AE2451 /* StartPageViewController.m */,
+				8CB52BAC1BB75B8400AE2451 /* ActorSearchViewController.h */,
+				8CB52BAD1BB75B8400AE2451 /* ActorSearchViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB52B721BB7434800AE2451 /* MovieLink3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB52BA01BB7434800AE2451 /* Build configuration list for PBXNativeTarget "MovieLink3" */;
+			buildPhases = (
+				8CB52B6F1BB7434800AE2451 /* Sources */,
+				8CB52B701BB7434800AE2451 /* Frameworks */,
+				8CB52B711BB7434800AE2451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieLink3;
+			productName = MovieLink3;
+			productReference = 8CB52B731BB7434800AE2451 /* MovieLink3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CB52B8B1BB7434800AE2451 /* MovieLink3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB52BA31BB7434800AE2451 /* Build configuration list for PBXNativeTarget "MovieLink3Tests" */;
+			buildPhases = (
+				8CB52B881BB7434800AE2451 /* Sources */,
+				8CB52B891BB7434800AE2451 /* Frameworks */,
+				8CB52B8A1BB7434800AE2451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB52B8E1BB7434800AE2451 /* PBXTargetDependency */,
+			);
+			name = MovieLink3Tests;
+			productName = MovieLink3Tests;
+			productReference = 8CB52B8C1BB7434800AE2451 /* MovieLink3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CB52B961BB7434800AE2451 /* MovieLink3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB52BA61BB7434800AE2451 /* Build configuration list for PBXNativeTarget "MovieLink3UITests" */;
+			buildPhases = (
+				8CB52B931BB7434800AE2451 /* Sources */,
+				8CB52B941BB7434800AE2451 /* Frameworks */,
+				8CB52B951BB7434800AE2451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB52B991BB7434800AE2451 /* PBXTargetDependency */,
+			);
+			name = MovieLink3UITests;
+			productName = MovieLink3UITests;
+			productReference = 8CB52B971BB7434800AE2451 /* MovieLink3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB52B6B1BB7434800AE2451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Dr.G;
+				TargetAttributes = {
+					8CB52B721BB7434800AE2451 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					8CB52B8B1BB7434800AE2451 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8CB52B721BB7434800AE2451;
+					};
+					8CB52B961BB7434800AE2451 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8CB52B721BB7434800AE2451;
+					};
+				};
+			};
+			buildConfigurationList = 8CB52B6E1BB7434800AE2451 /* Build configuration list for PBXProject "MovieLink3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB52B6A1BB7434800AE2451;
+			productRefGroup = 8CB52B741BB7434800AE2451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB52B721BB7434800AE2451 /* MovieLink3 */,
+				8CB52B8B1BB7434800AE2451 /* MovieLink3Tests */,
+				8CB52B961BB7434800AE2451 /* MovieLink3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB52B711BB7434800AE2451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB52B861BB7434800AE2451 /* LaunchScreen.storyboard in Resources */,
+				8CB52B831BB7434800AE2451 /* Assets.xcassets in Resources */,
+				8CB52B811BB7434800AE2451 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB52B8A1BB7434800AE2451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB52B951BB7434800AE2451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB52B6F1BB7434800AE2451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB52BC21BB77FFC00AE2451 /* MovieController.m in Sources */,
+				8CB52BAE1BB75B8400AE2451 /* ActorSearchViewController.m in Sources */,
+				8CB52B7E1BB7434800AE2451 /* Game1ViewController.m in Sources */,
+				8CB52BBA1BB75CDD00AE2451 /* MoviesWithActor.m in Sources */,
+				8CB52B7B1BB7434800AE2451 /* AppDelegate.m in Sources */,
+				8CB52BB11BB75BBE00AE2451 /* PickActorsViewController.m in Sources */,
+				8CB52BB41BB75BD400AE2451 /* StartPageViewController.m in Sources */,
+				8CB52BB71BB75CCE00AE2451 /* Actor.m in Sources */,
+				8CB52BBF1BB7656100AE2451 /* CastFromMovie.m in Sources */,
+				8CB52B781BB7434800AE2451 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB52B881BB7434800AE2451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB52B911BB7434800AE2451 /* MovieLink3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB52B931BB7434800AE2451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB52BAB1BB755AF00AE2451 /* NetworkController.m in Sources */,
+				8CB52B9C1BB7434800AE2451 /* MovieLink3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB52B8E1BB7434800AE2451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB52B721BB7434800AE2451 /* MovieLink3 */;
+			targetProxy = 8CB52B8D1BB7434800AE2451 /* PBXContainerItemProxy */;
+		};
+		8CB52B991BB7434800AE2451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB52B721BB7434800AE2451 /* MovieLink3 */;
+			targetProxy = 8CB52B981BB7434800AE2451 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CB52B7F1BB7434800AE2451 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB52B801BB7434800AE2451 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CB52B841BB7434800AE2451 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB52B851BB7434800AE2451 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB52B9E1BB7434800AE2451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB52B9F1BB7434800AE2451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB52BA11BB7434800AE2451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MovieLink3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrG.MovieLink3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CB52BA21BB7434800AE2451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MovieLink3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrG.MovieLink3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CB52BA41BB7434800AE2451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MovieLink3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrG.MovieLink3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieLink3.app/MovieLink3";
+			};
+			name = Debug;
+		};
+		8CB52BA51BB7434800AE2451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MovieLink3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrG.MovieLink3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieLink3.app/MovieLink3";
+			};
+			name = Release;
+		};
+		8CB52BA71BB7434800AE2451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MovieLink3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrG.MovieLink3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MovieLink3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8CB52BA81BB7434800AE2451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MovieLink3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrG.MovieLink3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MovieLink3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB52B6E1BB7434800AE2451 /* Build configuration list for PBXProject "MovieLink3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB52B9E1BB7434800AE2451 /* Debug */,
+				8CB52B9F1BB7434800AE2451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB52BA01BB7434800AE2451 /* Build configuration list for PBXNativeTarget "MovieLink3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB52BA11BB7434800AE2451 /* Debug */,
+				8CB52BA21BB7434800AE2451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CB52BA31BB7434800AE2451 /* Build configuration list for PBXNativeTarget "MovieLink3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB52BA41BB7434800AE2451 /* Debug */,
+				8CB52BA51BB7434800AE2451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CB52BA61BB7434800AE2451 /* Build configuration list for PBXNativeTarget "MovieLink3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB52BA71BB7434800AE2451 /* Debug */,
+				8CB52BA81BB7434800AE2451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB52B6B1BB7434800AE2451 /* Project object */;
+}
