@@ -182,9 +182,9 @@
 			children = (
 				8CB52B7C1BB7434800AE2451 /* Game1ViewController.h */,
 				8CB52B7D1BB7434800AE2451 /* Game1ViewController.m */,
-				8CB52BA91BB755AF00AE2451 /* NetworkController.h */,
 				8CB52BC01BB77FFC00AE2451 /* MovieController.h */,
 				8CB52BC11BB77FFC00AE2451 /* MovieController.m */,
+				8CB52BA91BB755AF00AE2451 /* NetworkController.h */,
 				8CB52BAA1BB755AF00AE2451 /* NetworkController.m */,
 				8CB52BAF1BB75BBE00AE2451 /* PickActorsViewController.h */,
 				8CB52BB01BB75BBE00AE2451 /* PickActorsViewController.m */,
@@ -562,6 +562,7 @@
 				8CB52BA21BB7434800AE2451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CB52BA31BB7434800AE2451 /* Build configuration list for PBXNativeTarget "MovieLink3Tests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +571,7 @@
 				8CB52BA51BB7434800AE2451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CB52BA61BB7434800AE2451 /* Build configuration list for PBXNativeTarget "MovieLink3UITests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +580,7 @@
 				8CB52BA81BB7434800AE2451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
