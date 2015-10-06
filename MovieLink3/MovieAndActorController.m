@@ -66,7 +66,7 @@
 
 
 //  This will get an actors list of movies
-- (void) getMoviesWithActorWithID:(NSString *)searchTerm completion:(void (^) (BOOL success)) completion {
+- (void) getMoviesWithActorWithID:(NSString *)searchTerm completion:(void (^) (BOOL success, NSArray * movies)) completion {
     
     NSURLSession *newSession = [NSURLSession sharedSession];
     NSURL *urlPath = [NSURL URLWithString:[NetworkController getMoviesWithActor:@{@"term":searchTerm}]];
@@ -74,7 +74,7 @@
     NSURLSessionDataTask *dataTask = [newSession dataTaskWithURL:urlPath completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error) {
             NSLog(@"%@", error.localizedDescription);
-            completion(NO);
+            completion(NO,nil);
         } else {
             
             NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
@@ -86,10 +86,13 @@
                     MoviesWithActor *movies = [[MoviesWithActor alloc] initWithDictionary:dictionary];
                     
                     [castMutableArray addObject:movies];
+                    
+                    if (dictionary == castArray.lastObject) {
+                        self.moviesWithActorArray = castMutableArray;
+                        completion(YES,self.moviesWithActorArray);
+                    }
                 }
-                self.moviesWithActorArray = castMutableArray;
             }
-            completion(YES);
         }
     }];
     [dataTask resume];
@@ -102,6 +105,8 @@
     NSURLSession *newSession = [NSURLSession sharedSession];
     NSURL *urlPath = [NSURL URLWithString:[NetworkController getCastFromMovie:@{@"term":searchTerm}]];
     
+    
+#pragma MARK - WTH is happening here?
     NSURLSessionDataTask *dataTask = [newSession dataTaskWithURL:urlPath completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error) {
             NSLog(@"%@", error.localizedDescription);

@@ -15,6 +15,7 @@
 @property (strong, nonatomic) NSNumber *movieIDNumber;
 @property (strong, nonatomic) NSString *yearOfRelease;
 
+
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end

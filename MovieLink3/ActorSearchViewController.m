@@ -10,9 +10,9 @@
 #import "MovieAndActorController.h"
 #import "Actor.h"
 #import "PickActorsViewController.h"
+#import "Actor.h"
 
 @interface ActorSearchViewController () <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
-
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     
 }
 
@@ -35,6 +35,8 @@
             });
         }
     }];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -62,19 +64,35 @@
 
  #pragma mark - Navigation
 
-// - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-//     if ([segue.identifier isEqualToString:@"actor1Segue"]) {
-//         PickActorsViewController *pickActorVC = segue.destinationViewController;
-//         NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
-//         Actor *actor = [[MovieAndActorController sharedInstance].actorSearchResults objectAtIndex:indexPath.row];
-//         
-//         if ([pickActorVC.actor1Button.titleLabel  isEqual: @"Select 1st Actor"]) {
-//             pickActorVC.actor1Button.titleLabel = actor.actorName;
-//         }
-//     }
-//     
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+     if ([segue.destinationViewController isKindOfClass:[PickActorsViewController class]]) {
+         PickActorsViewController *pickActorVC = segue.destinationViewController;
+         NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
+         Actor *actor = [[MovieAndActorController sharedInstance].actorSearchResults objectAtIndex:indexPath.row];
+         
+         
+         if (self.buttonID == 1 && actor.actorName){
+             
+             self.actor1 = actor;
+             pickActorVC.actor1 = self.actor1;
+             
+             pickActorVC.actor1Button.titleLabel.text = actor.actorName;
+             pickActorVC.actor1ID = [actor.IDNumber stringValue];
+           
+         }
+         
+         if (self.buttonID == 2 && actor.actorName){
+             self.actor2 = actor;
+             pickActorVC.actor2 = self.actor2;
+             
+             pickActorVC.actor2Button.titleLabel.text = actor.actorName;
+             pickActorVC.actor2ID = [actor.IDNumber stringValue];
+             
+         }
+     }
+     
 
-// }
+ }
 
 
 @end

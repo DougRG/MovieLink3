@@ -21,6 +21,8 @@ static NSString *kAPIKey = @"16ab3313172c7a064195a372c08322e2";
 // This returns actors ID after searching by name
 + (NSString *)getActorID:(NSDictionary *)actorName {
     
+    NSLog(@"Actor's Dictionary: %@", actorName);
+    
     NSString *urlString = [NetworkController baseURL];
     urlString = [urlString stringByAppendingString:[NSString stringWithFormat:@"search/person?include_adult=false&api_key=%@&query=", kAPIKey]];
     
@@ -33,11 +35,12 @@ static NSString *kAPIKey = @"16ab3313172c7a064195a372c08322e2";
 
 // This returns an actors filmography
 + (NSString *)getMoviesWithActor:(NSDictionary *)actorID {
-    
+    NSLog(@"Movies with Actor's Dictionary: %@", actorID);
     NSString *urlString = [NetworkController baseURL];
     urlString = [urlString stringByAppendingString:[NSString stringWithFormat:@"person/"]];
     
-    urlString = [urlString stringByAppendingString:[actorID[@"term"] stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
+    urlString = [urlString stringByAppendingString:actorID[@"term"]];
+       urlString = [urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
     
     urlString = [urlString stringByAppendingString:[NSString stringWithFormat:@"/movie_credits?api_key=%@", kAPIKey]];
     
@@ -60,6 +63,8 @@ static NSString *kAPIKey = @"16ab3313172c7a064195a372c08322e2";
 }
 
 
+// GamePlay methods
+//
 
 
 

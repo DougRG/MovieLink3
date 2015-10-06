@@ -18,9 +18,11 @@
 
 - (void) getActorIDAndName:(NSString *)searchTerm completion:(void (^) (BOOL success)) completion;
 
-- (void) getMoviesWithActorWithID:(NSString *)searchTerm completion:(void (^) (BOOL success)) completion;
+- (void) getMoviesWithActorWithID:(NSString *)searchTerm completion:(void (^) (BOOL success, NSArray * movies)) completion;
 
 - (void) getActorsFromMovieWithID:(NSString *)searchTerm completion:(void (^) (BOOL success)) completion;
+
+
 
 
 @end

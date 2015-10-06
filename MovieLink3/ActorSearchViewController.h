@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Actor.h"
 
 @interface ActorSearchViewController : UIViewController
+
+@property (nonatomic) NSInteger buttonID;
+@property (nonatomic, strong) Actor *actor1;
+@property (nonatomic, strong) Actor *actor2;
+
 
 @end

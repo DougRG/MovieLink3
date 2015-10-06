@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C4F3C9A1BBD8942002EE9D6 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4F3C991BBD8942002EE9D6 /* Timer.m */; settings = {ASSET_TAGS = (); }; };
 		8CB52B781BB7434800AE2451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52B771BB7434800AE2451 /* main.m */; };
 		8CB52B7B1BB7434800AE2451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52B7A1BB7434800AE2451 /* AppDelegate.m */; };
 		8CB52B7E1BB7434800AE2451 /* Game1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52B7D1BB7434800AE2451 /* Game1ViewController.m */; };
-		8CB52B811BB7434800AE2451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB52B7F1BB7434800AE2451 /* Main.storyboard */; };
 		8CB52B831BB7434800AE2451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB52B821BB7434800AE2451 /* Assets.xcassets */; };
 		8CB52B861BB7434800AE2451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB52B841BB7434800AE2451 /* LaunchScreen.storyboard */; };
 		8CB52B911BB7434800AE2451 /* MovieLink3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52B901BB7434800AE2451 /* MovieLink3Tests.m */; };
@@ -25,6 +25,13 @@
 		8CB52BC21BB77FFC00AE2451 /* MovieAndActorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BC11BB77FFC00AE2451 /* MovieAndActorController.m */; settings = {ASSET_TAGS = (); }; };
 		8CF38B631BB79A5300944145 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB52BAA1BB755AF00AE2451 /* NetworkController.m */; };
 		8CF38B651BB79D9800944145 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF38B641BB79D9800944145 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		8CF38B671BB8A4EA00944145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF38B661BB8A4EA00944145 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		8CFB82D81BBBA2FF00D91515 /* Game1ActorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB82D61BBBA2FF00D91515 /* Game1ActorTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		8CFB82D91BBBA2FF00D91515 /* Game1ActorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB82D71BBBA2FF00D91515 /* Game1ActorTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		8CFB82DD1BBBA31F00D91515 /* Game1MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB82DB1BBBA31F00D91515 /* Game1MovieTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		8CFB82DE1BBBA31F00D91515 /* Game1MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB82DC1BBBA31F00D91515 /* Game1MovieTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		8CFB82E21BBBA35C00D91515 /* Game1FinalActorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB82E01BBBA35C00D91515 /* Game1FinalActorTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		8CFB82E31BBBA35C00D91515 /* Game1FinalActorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB82E11BBBA35C00D91515 /* Game1FinalActorTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C4F3C981BBD8942002EE9D6 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		8C4F3C991BBD8942002EE9D6 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
 		8CB52B731BB7434800AE2451 /* MovieLink3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieLink3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB52B771BB7434800AE2451 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CB52B791BB7434800AE2451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CB52B7A1BB7434800AE2451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8CB52B7C1BB7434800AE2451 /* Game1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game1ViewController.h; sourceTree = "<group>"; };
 		8CB52B7D1BB7434800AE2451 /* Game1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game1ViewController.m; sourceTree = "<group>"; };
-		8CB52B801BB7434800AE2451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CB52B821BB7434800AE2451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB52B851BB7434800AE2451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CB52B871BB7434800AE2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +86,16 @@
 		8CB52BC01BB77FFC00AE2451 /* MovieAndActorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieAndActorController.h; sourceTree = "<group>"; };
 		8CB52BC11BB77FFC00AE2451 /* MovieAndActorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieAndActorController.m; sourceTree = "<group>"; };
 		8CF38B641BB79D9800944145 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8CF38B661BB8A4EA00944145 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		8CFB82D51BBBA2FF00D91515 /* Game1ActorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game1ActorTableViewCell.h; sourceTree = "<group>"; };
+		8CFB82D61BBBA2FF00D91515 /* Game1ActorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game1ActorTableViewCell.m; sourceTree = "<group>"; };
+		8CFB82D71BBBA2FF00D91515 /* Game1ActorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Game1ActorTableViewCell.xib; sourceTree = "<group>"; };
+		8CFB82DA1BBBA31F00D91515 /* Game1MovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game1MovieTableViewCell.h; sourceTree = "<group>"; };
+		8CFB82DB1BBBA31F00D91515 /* Game1MovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game1MovieTableViewCell.m; sourceTree = "<group>"; };
+		8CFB82DC1BBBA31F00D91515 /* Game1MovieTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Game1MovieTableViewCell.xib; sourceTree = "<group>"; };
+		8CFB82DF1BBBA35C00D91515 /* Game1FinalActorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game1FinalActorTableViewCell.h; sourceTree = "<group>"; };
+		8CFB82E01BBBA35C00D91515 /* Game1FinalActorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game1FinalActorTableViewCell.m; sourceTree = "<group>"; };
+		8CFB82E11BBBA35C00D91515 /* Game1FinalActorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Game1FinalActorTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,12 +147,12 @@
 		8CB52B751BB7434800AE2451 /* MovieLink3 */ = {
 			isa = PBXGroup;
 			children = (
+				8CF38B661BB8A4EA00944145 /* Main.storyboard */,
 				8CB52B791BB7434800AE2451 /* AppDelegate.h */,
 				8CB52B7A1BB7434800AE2451 /* AppDelegate.m */,
 				8CB52BBB1BB75CE900AE2451 /* Model */,
 				8CF38B621BB7933900944145 /* View */,
 				8CB52BBC1BB75CFB00AE2451 /* Controller */,
-				8CB52B7F1BB7434800AE2451 /* Main.storyboard */,
 				8CB52B821BB7434800AE2451 /* Assets.xcassets */,
 				8CB52B841BB7434800AE2451 /* LaunchScreen.storyboard */,
 				8CB52B871BB7434800AE2451 /* Info.plist */,
@@ -172,6 +190,8 @@
 		8CB52BBB1BB75CE900AE2451 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8C4F3C981BBD8942002EE9D6 /* Timer.h */,
+				8C4F3C991BBD8942002EE9D6 /* Timer.m */,
 				8CB52BB51BB75CCE00AE2451 /* Actor.h */,
 				8CB52BB61BB75CCE00AE2451 /* Actor.m */,
 				8CB52BB81BB75CDD00AE2451 /* MoviesWithActor.h */,
@@ -196,6 +216,7 @@
 		8CF38B621BB7933900944145 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8CFB82E41BBBAC0000D91515 /* Custom TB Cells */,
 				8CB52B7C1BB7434800AE2451 /* Game1ViewController.h */,
 				8CB52B7D1BB7434800AE2451 /* Game1ViewController.m */,
 				8CB52BAF1BB75BBE00AE2451 /* PickActorsViewController.h */,
@@ -206,6 +227,22 @@
 				8CB52BAD1BB75B8400AE2451 /* ActorSearchViewController.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		8CFB82E41BBBAC0000D91515 /* Custom TB Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8CFB82D51BBBA2FF00D91515 /* Game1ActorTableViewCell.h */,
+				8CFB82D61BBBA2FF00D91515 /* Game1ActorTableViewCell.m */,
+				8CFB82D71BBBA2FF00D91515 /* Game1ActorTableViewCell.xib */,
+				8CFB82DA1BBBA31F00D91515 /* Game1MovieTableViewCell.h */,
+				8CFB82DB1BBBA31F00D91515 /* Game1MovieTableViewCell.m */,
+				8CFB82DC1BBBA31F00D91515 /* Game1MovieTableViewCell.xib */,
+				8CFB82DF1BBBA35C00D91515 /* Game1FinalActorTableViewCell.h */,
+				8CFB82E01BBBA35C00D91515 /* Game1FinalActorTableViewCell.m */,
+				8CFB82E11BBBA35C00D91515 /* Game1FinalActorTableViewCell.xib */,
+			);
+			name = "Custom TB Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,9 +349,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB52B861BB7434800AE2451 /* LaunchScreen.storyboard in Resources */,
+				8CFB82E31BBBA35C00D91515 /* Game1FinalActorTableViewCell.xib in Resources */,
 				8CF38B651BB79D9800944145 /* Default-568h@2x.png in Resources */,
+				8CFB82DE1BBBA31F00D91515 /* Game1MovieTableViewCell.xib in Resources */,
 				8CB52B831BB7434800AE2451 /* Assets.xcassets in Resources */,
-				8CB52B811BB7434800AE2451 /* Main.storyboard in Resources */,
+				8CFB82D91BBBA2FF00D91515 /* Game1ActorTableViewCell.xib in Resources */,
+				8CF38B671BB8A4EA00944145 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4F3C9A1BBD8942002EE9D6 /* Timer.m in Sources */,
 				8CF38B631BB79A5300944145 /* NetworkController.m in Sources */,
 				8CB52BC21BB77FFC00AE2451 /* MovieAndActorController.m in Sources */,
 				8CB52BAE1BB75B8400AE2451 /* ActorSearchViewController.m in Sources */,
@@ -348,8 +389,11 @@
 				8CB52BB11BB75BBE00AE2451 /* PickActorsViewController.m in Sources */,
 				8CB52BB41BB75BD400AE2451 /* StartPageViewController.m in Sources */,
 				8CB52BB71BB75CCE00AE2451 /* Actor.m in Sources */,
+				8CFB82DD1BBBA31F00D91515 /* Game1MovieTableViewCell.m in Sources */,
 				8CB52BBF1BB7656100AE2451 /* CastFromMovie.m in Sources */,
 				8CB52B781BB7434800AE2451 /* main.m in Sources */,
+				8CFB82E21BBBA35C00D91515 /* Game1FinalActorTableViewCell.m in Sources */,
+				8CFB82D81BBBA2FF00D91515 /* Game1ActorTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,14 +430,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8CB52B7F1BB7434800AE2451 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CB52B801BB7434800AE2451 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8CB52B841BB7434800AE2451 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
