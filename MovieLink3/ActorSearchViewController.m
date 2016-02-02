@@ -22,8 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    
 }
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
@@ -35,13 +33,10 @@
             });
         }
     }];
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -60,8 +55,6 @@
     return cell;
 }
 
-
-
  #pragma mark - Navigation
 
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
@@ -70,7 +63,6 @@
          NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
          Actor *actor = [[MovieAndActorController sharedInstance].actorSearchResults objectAtIndex:indexPath.row];
          
-         
          if (self.buttonID == 1 && actor.actorName){
              
              self.actor1 = actor;
@@ -78,7 +70,6 @@
              
              pickActorVC.actor1Button.titleLabel.text = actor.actorName;
              pickActorVC.actor1ID = [actor.IDNumber stringValue];
-           
          }
          
          if (self.buttonID == 2 && actor.actorName){
@@ -87,11 +78,8 @@
              
              pickActorVC.actor2Button.titleLabel.text = actor.actorName;
              pickActorVC.actor2ID = [actor.IDNumber stringValue];
-             
          }
      }
-     
-
  }
 
 

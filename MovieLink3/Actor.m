@@ -21,7 +21,6 @@
             self.actorName = dictionary[@"name"];
         }
     }
-    
     return self;
 }
 

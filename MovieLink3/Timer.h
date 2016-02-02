@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 static NSString * const SecondTickNotification = @"SecondTickNotification";
 static NSString * const TimerCompleteNotification  = @"TimerCompleteNotification";
-static NSString * const NewRoundNotification = @"NewRoundNotification";
 
 
 @interface Timer : NSObject

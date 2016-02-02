@@ -92,6 +92,7 @@
                         completion(YES,self.moviesWithActorArray);
                     }
                 }
+                NSLog(@"%@", response);
             }
         }
     }];

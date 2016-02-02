@@ -1,4 +1,3 @@
-//
 //  StartPageViewController.h
 //  MovieLink3
 //

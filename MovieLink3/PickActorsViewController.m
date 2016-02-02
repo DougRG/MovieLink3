@@ -21,12 +21,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)prepareForUnwindSegue:(UIStoryboardSegue *)segue {
@@ -51,12 +49,8 @@
         game1VC.actor1ID = self.actor1ID;
         game1VC.actor2ID = self.actor2ID;
         
-        
-        
-        
         NSLog(@"%@", game1VC.actor1Label.text);
         
-    
         [[MovieAndActorController sharedInstance]getMoviesWithActorWithID:self.actor1ID
     completion:^(BOOL success, NSArray *movies) {
         game1VC.actor1Movies = movies;
@@ -69,8 +63,7 @@
         NSLog(@"%@", self.actor1ID);
         NSLog(@"%@", self.actor2ID);
     } else {
-        
-        
+    
          ActorSearchViewController *actorSearchVC = segue.destinationViewController;
         
         if([sender isEqual:self.actor1Button]) {

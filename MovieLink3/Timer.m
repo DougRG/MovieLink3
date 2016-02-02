@@ -43,7 +43,9 @@ static NSString * const expirationDate = @"expirationDate";
     timerExpiredNotification.fireDate = self.expirationDate;
     timerExpiredNotification.timeZone = [NSTimeZone defaultTimeZone];
     timerExpiredNotification.soundName = UILocalNotificationDefaultSoundName;
-    timerExpiredNotification.alertBody = @"Time to Move On";
+    timerExpiredNotification.alertTitle = @"Time's Up!";
+    timerExpiredNotification.alertBody = @"Did you make it? Let's take a look!";
+    
     
     [[UIApplication sharedApplication] scheduleLocalNotification:timerExpiredNotification];
     
